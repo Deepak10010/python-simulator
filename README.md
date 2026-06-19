@@ -5,6 +5,14 @@ real CPython in your browser (via [Pyodide](https://pyodide.org)) and animates
 execution **step by step** — variables filling their boxes, the call stack
 growing and shrinking, lists/dicts mutating, output appearing line by line.
 
+![PySim showing the Collections lesson running step by step — code, variables, the live calculation, a heap of lists and tuples, and output](docs/screenshot.png)
+
+> Step through any concept: watch the highlighted line execute, see the
+> **calculation worked out** (`print('x =', 3, 'y =', 4)`), variables update,
+> and the heap of lists/dicts/sets come alive.
+
+<p align="center"><img src="docs/home.png" alt="PySim home page — See Python actually run" width="800"></p>
+
 Two modes, one engine:
 
 - **Learn** — curated, animated lessons per concept (Beginner tier ships now).
